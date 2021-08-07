@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deathwing", "Deathwing.csproj", "{52ECE020-C0B4-45F2-AE03-592C8C8038CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raditz", "Raditz.csproj", "{377480F2-CB6E-4421-9208-8EDF586D157F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{52ECE020-C0B4-45F2-AE03-592C8C8038CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52ECE020-C0B4-45F2-AE03-592C8C8038CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52ECE020-C0B4-45F2-AE03-592C8C8038CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52ECE020-C0B4-45F2-AE03-592C8C8038CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377480F2-CB6E-4421-9208-8EDF586D157F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377480F2-CB6E-4421-9208-8EDF586D157F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377480F2-CB6E-4421-9208-8EDF586D157F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377480F2-CB6E-4421-9208-8EDF586D157F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7BA6D995-AAC5-47CC-953F-91830737258E}
+		SolutionGuid = {D8F44A3D-311A-4D8C-9B09-A8CB82B169DA}
 	EndGlobalSection
 EndGlobal

@@ -2,7 +2,7 @@
 using System.Net;
 using System.Reflection;
 
-namespace Illidan
+namespace Nappa
 {
     class Program
     {

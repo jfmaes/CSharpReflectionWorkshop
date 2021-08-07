@@ -2,7 +2,7 @@
 using System.Reflection;
 
 
-namespace Ragnaros
+namespace Raditz
 {
     class Program
     {
@@ -15,6 +15,7 @@ namespace Ragnaros
         static void Main(string[] args)
         {
             Reflect(@"C:\Users\jarvis\source\repos\HelloReflectionWorld\bin\Release\HelloReflectionWorld.exe");
+            Console.ReadKey();
         }
     }
 }

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F82377E2-ABFA-4CC3-803E-A01966271B37}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Illidan</RootNamespace>
-    <AssemblyName>Illidan</AssemblyName>
+    <RootNamespace>Nappa</RootNamespace>
+    <AssemblyName>Nappa</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

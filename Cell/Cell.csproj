@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{377480F2-CB6E-4421-9208-8EDF586D157F}</ProjectGuid>
+    <ProjectGuid>{52ECE020-C0B4-45F2-AE03-592C8C8038CD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ragnaros</RootNamespace>
-    <AssemblyName>Ragnaros</AssemblyName>
+    <RootNamespace>Cell</RootNamespace>
+    <AssemblyName>Cell</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

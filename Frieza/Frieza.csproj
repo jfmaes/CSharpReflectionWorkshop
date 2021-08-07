@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{42D75FCA-84FF-4394-B029-E338E039B81D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Arthas</RootNamespace>
-    <AssemblyName>Arthas</AssemblyName>
+    <RootNamespace>Frieza</RootNamespace>
+    <AssemblyName>Frieza</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

